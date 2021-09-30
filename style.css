@@ -142,8 +142,8 @@ form {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+/*   justify-content: space-between; */
+  width: 50%;
 }
 
 .carta-subtitle {
