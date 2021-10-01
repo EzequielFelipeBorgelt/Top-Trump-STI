@@ -1,69 +1,83 @@
 var cartas = [
   {
+    nome: "Armando",
+    imagem:
+      "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/armando.JPG",
+    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5, Wall_Ball: 8 }
+  },
+
+  {
+    nome: "Hector",
+    imagem:
+      "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/hector.JPG",
+    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5, Wall_Ball: 8 }
+  },
+
+  {
     nome: "Nobel",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/nobel1.JPG",
-    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5 }
+    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5, Wall_Ball: 8 }
   },
 
   {
     nome: "Mateo",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/mateo.JPG",
-    atributos: { Snatch: 8, Run: 6, DU: 5, Row: 7 }
+    atributos: { Snatch: 8, Run: 6, DU: 5, Row: 7, Wall_Ball: 8 }
   },
 
   {
     nome: "Junior",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/junior.JPG",
-    atributos: { Snatch: 9, Run: 7, DU: 4, Row: 8 }
+    atributos: { Snatch: 9, Run: 7, DU: 4, Row: 8, Wall_Ball: 8 }
   },
 
   {
     nome: "Wladimir",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/wladimir.JPG",
-    atributos: { Snatch: 9, Run: 7, DU: 7, Row: 6 }
+    atributos: { Snatch: 9, Run: 7, DU: 7, Row: 6, Wall_Ball: 8 }
   },
 
   {
     nome: "Samuel",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/samuel.JPG",
-    atributos: { Snatch: 5, Run: 7, DU: 8, Row: 9 }
+    atributos: { Snatch: 5, Run: 7, DU: 8, Row: 9, Wall_Ball: 8 }
   },
   {
     nome: "Chema",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/chema.JPG",
-    atributos: { Snatch: 6, Run: 9, DU: 5, Row: 7 }
+    atributos: { Snatch: 6, Run: 9, DU: 5, Row: 7, Wall_Ball: 8 }
   },
 
   {
     nome: "Cristopher",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/chirstopher.JPG",
-    atributos: { Snatch: 6, Run: 9, DU: 6, Row: 8 }
+    atributos: { Snatch: 6, Run: 9, DU: 6, Row: 8, Wall_Ball: 8 }
   },
 
   {
     nome: "Cocho",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/cocho.JPG",
-    atributos: { Snatch: 9, Run: 7, DU: 4, Row: 8 }
+    atributos: { Snatch: 9, Run: 7, DU: 4, Row: 8, Wall_Ball: 8 }
   },
   {
     nome: "Antonio",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/antonio.JPG",
-    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5 }
+    atributos: { Snatch: 9, Run: 6, DU: 8, Row: 5, Wall_Ball: 8 }
   },
   {
     nome: "Ezequiel",
     imagem:
       "https://raw.githubusercontent.com/EzequielFelipeBorgelt/Top-Trump-STI/main/ezequiel1.JPG",
-    atributos: { Snatch: 6, Run: 5, DU: 2, Row: 9 }
+    atributos: { Snatch: 6, Run: 5, DU: 2, Row: 9, Wall_Ball: 8 }
   }
 ];
 

@@ -24,24 +24,27 @@ body {
 
 .container {
   text-align: center;
-  padding: 20px;
+  padding: 90px;
 }
 
 .perfil {
   display: flex;
 }
 
+/*LOGO Principal*/
 .perfil-foto {
   background: url(image.png);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 460px;
-  max-height: 160px;
+  max-height: 180px;
 }
 
+/*Titulos escritos ao lado do logo principal*/
 .titulo {
   margin-left: 90px;
 }
 
+/*Estilo do texto escrito no titulo*/
 .titulo h1 {
   font-weight: 700;
   font-size: 36px;
@@ -60,6 +63,7 @@ button,
   /*   background-color: red; */
 }
 
+/*Titulo da lista de cartas disponiveis*/
 h2 {
   list-style: none;
   font-weight: 700;
@@ -68,18 +72,18 @@ h2 {
   border-radius: 100px;
 }
 
-.baralho {
+/* .baralho {
   font-weight: 200;
-  font-size: 18px;
+  font-size: px;
   line-height: 42px;
   padding-bottom: 4px;
-}
+} */
 
 /*Tamanho da carta e a poriscao  das fotos*/
 #carta-jogador,
 #carta-maquina {
   width: 360px;
-  height: 600px;
+  height: 725px;
   overflow: auto;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -87,11 +91,12 @@ h2 {
   display: flex;
   align-items: flex-end;
   position: relative;
-  background-size: 350px 300px; /*Tamanho das fotos*/
+  background-size: 350px 320px; /*Tamanho das fotos*/
   background-repeat: no-repeat;
   background-position-x: 5px; /*Horizontal*/
-  background-position-y: 50px; /*Vertical*/
+  background-position-y: 87px; /*Vertical*/
   border-radius: 33px;
+  /*   font-size: 16px; Fonte dos Atributos Jogador */
 }
 
 #carta-jogador h3 {
@@ -111,7 +116,7 @@ h2 {
 
 /*Move os atributos*/
 .carta-status {
-  height: 190px;
+  height: 240px;
   margin: 2rem;
   color: white;
   z-index: 2;
@@ -121,6 +126,7 @@ h2 {
   margin: 20px 10px;
 }
 
+/*Mensagens escritas com os resultados*/
 .resultado-final {
   color: white;
   font-size: 2rem;
@@ -140,41 +146,44 @@ form {
   flex-direction: column;
 }
 
+/*Posicao das cartas.*/
 .wrapper {
   display: flex;
-/*   justify-content: space-between; */
+  /*   justify-content: space-between; */
   width: 50%;
 }
 
+/*Nomes das Cartas*/
 .carta-subtitle {
   color: #000;
   z-index: 2;
   position: absolute;
-  top: 41px;
+  top: 50px;
   left: 37px;
   font-weight: 800;
   text-transform: uppercase;
 }
 
-#cartas {
-  width: 100%;
+/* #cartas {
+  width: 150%;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /*Carta da Maquina*/
 .carta-status p {
   text-transform: capitalize;
   align-items: center;
   text-align: center;
-  margin: 0.6rem 2rem 1.2rem 2rem;
+  margin: 0.6rem 2rem 0.8rem 2rem;
   color: white;
   z-index: 2;
   border: 2px solid rgb(214, 187, 127);
   border-radius: 10px;
   display: flex;
-  padding: 0rem 4rem 0rem 4rem;
+  padding: 0.2rem 2rem 0rem 4rem;
   background-color: rgb(107, 84, 95);
+  font-size: 16px;
 }
 
 .botoes {
@@ -185,15 +194,16 @@ label:first-of-type {
   margin-top: 0.6rem;
 }
 
+/*Carta Jogador*/
 label {
   text-transform: capitalize;
-  margin: 0rem 2rem 0rem 2rem;
+  margin: 0rem 3rem -0.5rem 2rem;
   color: white;
   z-index: 2;
   border: 2px solid rgb(214, 187, 127);
   border-radius: 9px;
   display: flex;
-  padding: 0rem 4rem 0rem 4rem;
+  padding: 0rem 2rem 0rem 4rem;
   background-color: rgb(107, 84, 95);
   cursor: pointer;
   transition: background 0.2s;
@@ -213,11 +223,12 @@ label {
   width: 200px;
 }
 
+/*lIsta das cartas disponiveis*/
 p {
   color: white;
   padding: 1px;
   margin: 1px;
   line-height: 1em;
   align: left;
-  font-size: 18px;
+  font-size: 24px;
 }
